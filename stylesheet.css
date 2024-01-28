@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #292929;
+    position: relative;
+    min-height: 100vh;
+}
+
+
+
+.nav-link {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+    color: #a64d79ff;
+}
+
+.navbar-brand {
+    color: #a64d79ff;
+}
+
+.homepage-header {
+    padding: 250px 0 60px 0;
+}
+.hier-intro {
+    padding: 50px 0 60px 0;
+    text-align: center;
+}
+
+hr {
+    margin: 20px 0 32px 0 !important;
+    color: #C3C9D4;
+}
+
+.hier-container {
+    padding-bottom: 8rem;
+}
+
+/*Primary Typography*/
+h1 {
+    font-size: 2.441rem;
+    padding-bottom: 0.279rem;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    padding-bottom: 0.667rem;
+}
+
+.homepage-header {
+    font-size: 3.052rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+code {
+    color: #8794AA;
+    font-size: .875rem;
+}
+
+
+
+/*Kanit & Trirong Typography*/
+.kanit {
+    font-family: 'Kanit', serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.kanit h1 {
+    font-size: 4.209em;
+    font-weight: 300;
+}
+
+.kanit h2 {
+    font-size: 3.157em;
+    font-weight: 325;
+}
+
+.kanit h3 {
+    font-size: 2.369em;
+    font-weight: 550;
+}
+
+.kanit h4 {
+    font-size: 1.777em;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.kanit em {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.kanit a {
+    font-size: 1em;
+    font-weight: 550;
+    color: #a64d79ff;
+    text-decoration: underline;
+    text-decoration-thickness: .12em;
+    text-decoration-color: #a64d79ff;
+}
+
+.kanit a:hover {
+    color: #a64d79ff;
+    text-decoration: none;
+}
+
+.kanit .hover {
+    font-weight: 550;
+    color: #a64d79ff;
+    text-decoration: none;
+}
+
+/*Maiden Orange Typography*/
+.maidenOrange {
+    font-family: 'Maiden Orange', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.maidenOrange h1 {
+    font-family: 'Maiden Orange', serif;
+    font-size: 4.209em;
+    font-weight: 300;
+}
+
+.maidenOrange h2 {
+    font-family: 'Maiden Orange', serif;
+    font-size: 3.157em;
+    font-weight: 325;
+}
+
+.maidenOrange h3 {
+    font-family: 'Maiden Orange', serif;
+    font-size: 2.369em;
+    font-weight: 625;
+}
+
+.maidenOrange h4 {
+    font-family: 'Maiden Orange', serif;
+    font-size: 1.777em;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.maidenOrange em {
+    font-size: 1em;
+    font-weight: 725;
+    font-style: normal;
+}
+
+.maidenOrange  a {
+    font-family: 'Maiden Orange', serif;
+    font-size: 1em;
+    font-weight: 550;
+    color: #a64d79ff;
+    text-decoration: underline;
+    text-decoration-thickness: .1em;
+    text-decoration-color: #a64d79ff;
+}
+
+.maidenOrange a:hover {
+    text-decoration-style: wavy;
+}
+
+.maidenOrange .hover {
+    font-family: 'Maiden Orange', serif;
+    font-weight: 550;
+    color: #a64d79ff;
+    text-decoration: underline;
+    text-decoration-thickness: .1em;
+    text-decoration-color: #a64d79ff;
+    text-decoration-style: wavy;
+}
+
+/*Sofia Sans Typography*/
+.sofiaSans {
+    font-family: 'Sonfia Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sofiaSans h1 {
+    font-family: 'Sonfia Sans', sans-serif;
+    font-size: 3.052em;
+}
+
+.sofiaSans h2 {
+    font-family: 'Sonfia Sans', sans-serif;
+    font-size: 2.441em;
+}
+
+.sofiaSans h3 {
+    font-family: 'Sonfia Sans', sans-serif;
+    font-size: 1.953em;
+}
+
+.sofiaSans h4 {
+    font-family: 'Sonfia Sans', sans-serif;
+    font-size: 1.563em;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.sofiaSans em {
+    font-weight: 600;
+    font-style: normal;
+}
+
+.sofiaSans a {
+    color: #a64d79ff;
+    text-decoration: underline;
+}
+
+.sofiaSans a:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #a64d79ff;
+}
+
+.sofiaSans .hover {
+    text-decoration-style: none;
+    color: #fff;
+    background-color: #a64d79ff;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    padding: 1.5rem 0 3rem 0;
+    height: 5rem;
+    bottom: 0;
+    height: 3.6rem;
+    text-align: center;
+}
+
+.footer-link {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.text-reset {
+    --bs-text-opacity: 1;
+    color: #a64d79ff !important;
+}
+
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+
+/* Specs Section */
+.specs {
+    padding-top: 20px;
+}
+
+@media (min-width: 992px) {
+    .specs {
+        padding-top: 0;
+        display: flex;
+        align-items: center;
+    }
+}
